@@ -1,3 +1,64 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "A creative workspace with a laptop, notebook, and coffee.",
+      "imageUrl": "https://images.unsplash.com/photo-1650346910578-9ec99018b771?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjcmVhdGl2ZSUyMHdvcmtzcGFjZXxlbnwwfHx8fDE3NjMxOTcxODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "creative workspace"
+    },
+    {
+      "id": "project1",
+      "description": "Screenshot of a modern web application dashboard.",
+      "imageUrl": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3ZWIlMjBhcHB8ZW58MHx8fHwxNzYzMjQ4MjAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "web app"
+    },
+    {
+      "id": "project2",
+      "description": "A mobile phone showcasing a clean app design.",
+      "imageUrl": "https://images.unsplash.com/photo-1661246626039-5429b8f7488a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bW9iaWxlJTIwZGVzaWdufGVufDB8fHx8MTc2MzE5NDg4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mobile design"
+    },
+    {
+      "id": "project3",
+      "description": "A complex data visualization graph on a screen.",
+      "imageUrl": "https://images.unsplash.com/photo-1584291527935-456e8e2dd734?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkYXRhJTIwdmlzdWFsaXphdGlvbnxlbnwwfHx8fDE3NjMyNzUwNDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data visualization"
+    },
+    {
+      "id": "blog1",
+      "description": "Close-up of code in a text editor.",
+      "imageUrl": "https://images.unsplash.com/photo-1603943761979-879c839ac8e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2RlJTIwZWRpdG9yfGVufDB8fHx8MTc2MzI5Njg0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "code editor"
+    },
+    {
+      "id": "blog2",
+      "description": "A designer sketching on a tablet.",
+      "imageUrl": "https://images.unsplash.com/photo-1603975711481-18b7aaca4caa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkZXNpZ24lMjBwcm9jZXNzfGVufDB8fHx8MTc2MzI2NTIzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "design process"
+    },
+    {
+      "id": "blog3",
+      "description": "A team collaborating around a whiteboard.",
+      "imageUrl": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3NjMzMDMwODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "team collaboration"
+    },
+    {
+      "id": "avatar",
+      "description": "A professional portrait of a person.",
+      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb3J0cmFpdCUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3NjMxODczMzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "portrait professional"
+    },
+    {
+      "id": "certificate1",
+      "description": "An official-looking certificate document.",
+      "imageUrl": "https://images.unsplash.com/photo-1616861771635-49063a4636ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2VydGlmaWNhdGUlMjBkb2N1bWVudHxlbnwwfHx8fDE3NjMyOTk2NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "certificate2",
+      "description": "A shiny gold award medal.",
+      "imageUrl": "https://images.unsplash.com/photo-1757365225211-1515ecc8a109?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhd2FyZCUyMG1lZGFsfGVufDB8fHx8MTc2MzMwNDU1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "award medal"
+    }
+  ]
 }
