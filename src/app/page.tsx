@@ -10,6 +10,7 @@ import { BlogPostCard } from '@/components/blog-post-card';
 
 export default function Home() {
   const heroImage = PlaceHolderImages.find(img => img.id === 'hero');
+  const avatarImage = PlaceHolderImages.find(img => img.id === 'avatar');
 
   return (
     <div className="flex flex-col">
@@ -51,14 +52,14 @@ export default function Home() {
       <section className="py-16 md:py-24">
         <div className="container mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-4 md:grid-cols-3">
           <div className="flex justify-center md:justify-start">
-            <Image
-              src="/img/profile.jpg"
+            {avatarImage && <Image
+              src={avatarImage.imageUrl}
               alt="Namasivayam M"
               width={150}
               height={150}
               className="rounded-full border-4 border-primary shadow-lg"
-              data-ai-hint="portrait professional"
-            />
+              data-ai-hint={avatarImage.imageHint}
+            />}
           </div>
           <div className="text-center md:col-span-2 md:text-left">
             <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
