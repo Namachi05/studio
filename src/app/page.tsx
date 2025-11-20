@@ -8,10 +8,6 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { ProjectCard } from '@/components/project-card';
 import { BlogPostCard } from '@/components/blog-post-card';
 
-function findImage(id: string) {
-  return PlaceHolderImages.find(img => img.id === id);
-}
-
 export default function Home() {
   const avatarImage = PlaceHolderImages.find(img => img.id === 'avatar');
   const heroImage = PlaceHolderImages.find(img => img.id === 'hero');
