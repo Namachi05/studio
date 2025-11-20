@@ -3,11 +3,9 @@ import Link from "next/link";
 import { Download } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { siteConfig } from "@/lib/data";
 
 export default function AboutPage() {
-  const avatarImage = PlaceHolderImages.find(img => img.id === 'avatar');
   const skills = [
     "Python", "NumPy", "Pandas", "Scikit-Learn", "Matplotlib",
     "SQL", "Git & GitHub", "Flask", "Jupyter Notebook",
@@ -21,16 +19,14 @@ export default function AboutPage() {
     <div className="container mx-auto max-w-5xl py-16 px-4 sm:py-24">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
         <div className="flex flex-col items-center">
-          {avatarImage && (
-            <Image
-              src={avatarImage.imageUrl}
-              alt="Namasivayam M"
-              width={200}
-              height={200}
-              className="rounded-full border-4 border-primary shadow-lg"
-              data-ai-hint={avatarImage.imageHint}
-            />
-          )}
+          <Image
+            src="/img/profile.jpg"
+            alt="Namasivayam M"
+            width={200}
+            height={200}
+            className="rounded-full border-4 border-primary shadow-lg"
+            data-ai-hint="portrait professional"
+          />
           <h1 className="font-headline text-3xl font-bold mt-6">Namasivayam M</h1>
           <p className="text-muted-foreground mt-1 text-center">Data Scientist & Machine Learning Engineer</p>
           <Button asChild className="mt-6 w-full">
