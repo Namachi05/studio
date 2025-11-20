@@ -24,14 +24,14 @@ export default function AboutPage() {
           {avatarImage && (
             <Image
               src={avatarImage.imageUrl}
-              alt="Alex Doe"
+              alt="Namasivayam M"
               width={200}
               height={200}
               className="rounded-full border-4 border-primary shadow-lg"
               data-ai-hint={avatarImage.imageHint}
             />
           )}
-          <h1 className="font-headline text-3xl font-bold mt-6">Alex Doe</h1>
+          <h1 className="font-headline text-3xl font-bold mt-6">Namasivayam M</h1>
           <p className="text-muted-foreground mt-1 text-center">Data Scientist & Machine Learning Engineer</p>
           <Button asChild className="mt-6 w-full">
             <Link href={siteConfig.resumeUrl} target="_blank">

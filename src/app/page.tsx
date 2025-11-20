@@ -59,7 +59,7 @@ export default function Home() {
             {avatarImage && (
               <Image
                 src={avatarImage.imageUrl}
-                alt="Alex Doe"
+                alt="Namasivayam M"
                 width={150}
                 height={150}
                 className="rounded-full border-4 border-primary shadow-lg"

@@ -1,7 +1,7 @@
 import type { Project, Certificate, BlogPost, SiteConfig } from './types'
 
 export const siteConfig: SiteConfig = {
-  name: "Alex Doe",
+  name: "Namasivayam M",
   description: "A portfolio showcasing data science and machine learning projects.",
   url: "https://example.com",
   socials: {
