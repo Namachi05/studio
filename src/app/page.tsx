@@ -23,7 +23,7 @@ export default function Home() {
         {heroImage && (
           <Image
             src={heroImage.imageUrl}
-            alt="Creative workspace"
+            alt="Data analysis visualization"
             fill
             className="object-cover opacity-10"
             data-ai-hint={heroImage.imageHint}
@@ -32,10 +32,10 @@ export default function Home() {
         )}
         <div className="container relative z-10 mx-auto max-w-7xl px-4 text-center">
           <h1 className="font-headline text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
-            Creative Developer & Designer
+            Data Scientist & ML Engineer
           </h1>
           <p className="mx-auto mt-6 max-w-3xl text-lg text-muted-foreground md:text-xl">
-            I build beautiful, responsive, and user-friendly web applications. Explore my work and get in touch.
+            Transforming raw data into actionable insights and building end-to-end data-driven applications.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Button asChild size="lg">
@@ -59,7 +59,7 @@ export default function Home() {
             {avatarImage && (
               <Image
                 src={avatarImage.imageUrl}
-                alt="John Doe"
+                alt="Alex Doe"
                 width={150}
                 height={150}
                 className="rounded-full border-4 border-primary shadow-lg"
@@ -69,10 +69,10 @@ export default function Home() {
           </div>
           <div className="text-center md:col-span-2 md:text-left">
             <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
-              A little bit about me
+              M.Sc. Data Science Graduate
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              A passionate developer with a knack for creating engaging digital experiences. With a background in both design and engineering, I bring a unique perspective to every project, focusing on both aesthetics and functionality.
+              A passionate data scientist with a knack for building predictive models and developing data-driven applications. With a background in Computer Science and Data Science, I bring a unique perspective to every project, focusing on delivering clear, impactful results.
             </p>
             <Button asChild variant="link" className="mt-4 px-0 text-lg">
               <Link href="/about">Learn more <ArrowRight className="ml-2" /></Link>
@@ -86,7 +86,7 @@ export default function Home() {
         <div className="container mx-auto max-w-7xl px-4">
           <div className="mb-12 text-center">
             <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">Featured Projects</h2>
-            <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">A selection of my best work.</p>
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">A selection of my best work in data science.</p>
           </div>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {projects.slice(0, 3).map((project) => (
@@ -106,7 +106,7 @@ export default function Home() {
         <div className="container mx-auto max-w-7xl px-4">
           <div className="mb-12 text-center">
             <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">Latest from the Blog</h2>
-            <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">My thoughts on design, development, and more.</p>
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">My thoughts on data science, machine learning, and more.</p>
           </div>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {blogPosts.slice(0, 3).map((post) => (
