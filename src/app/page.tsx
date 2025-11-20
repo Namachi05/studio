@@ -13,8 +13,8 @@ function findImage(id: string) {
 }
 
 export default function Home() {
-  const avatarImage = findImage('avatar');
-  const heroImage = findImage('hero');
+  const avatarImage = PlaceHolderImages.find(img => img.id === 'avatar');
+  const heroImage = PlaceHolderImages.find(img => img.id === 'hero');
 
   return (
     <div className="flex flex-col">
