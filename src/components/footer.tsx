@@ -25,12 +25,6 @@ export function Footer() {
             </Link>
           </div>
         </div>
-        <Separator className="my-6" />
-        <div className="text-center text-sm text-muted-foreground">
-          <Link href="/admin/login" className="hover:text-primary transition-colors">
-            Admin Login
-          </Link>
-        </div>
       </div>
     </footer>
   )
