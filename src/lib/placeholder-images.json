@@ -45,7 +45,7 @@
     {
       "id": "avatar",
       "description": "A professional portrait of a person.",
-      "imageUrl": "/profil%20pic.jpg",
+      "imageUrl": "/images/avatar.jpg",
       "imageHint": "portrait professional"
     },
     {
