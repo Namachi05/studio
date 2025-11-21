@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter } from 'lucide-react'
+import { Github, Linkedin } from 'lucide-react'
 import Link from 'next/link'
 import { Logo } from '@/components/logo'
 import { siteConfig } from '@/lib/data'
@@ -14,9 +14,6 @@ export function Footer() {
             © {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
-            <Link href={siteConfig.socials.twitter} target="_blank" rel="noreferrer" aria-label="Twitter">
-              <Twitter className="h-5 w-5 text-muted-foreground transition-colors hover:text-primary" />
-            </Link>
             <Link href={siteConfig.socials.github} target="_blank" rel="noreferrer" aria-label="GitHub">
               <Github className="h-5 w-5 text-muted-foreground transition-colors hover:text-primary" />
             </Link>

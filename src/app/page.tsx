@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { ArrowRight, Download, Mail } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
-import { projects, blogPosts, siteConfig } from '@/lib/data';
+import { projects, siteConfig } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { ProjectCard } from '@/components/project-card';
 import { BlogPostCard } from '@/components/blog-post-card';
@@ -90,26 +90,6 @@ export default function Home() {
           <div className="mt-12 text-center">
             <Button asChild size="lg" variant="outline">
               <Link href="/projects">View All Projects</Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* Latest Blog Posts */}
-      <section className="py-16 md:py-24">
-        <div className="container mx-auto max-w-7xl px-4">
-          <div className="mb-12 text-center">
-            <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">Latest from the Blog</h2>
-            <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">My thoughts on data science, machine learning, and more.</p>
-          </div>
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {blogPosts.slice(0, 3).map((post) => (
-              <BlogPostCard key={post.id} post={post} />
-            ))}
-          </div>
-          <div className="mt-12 text-center">
-            <Button asChild size="lg" variant="outline">
-              <Link href="/blog">Read More Posts</Link>
             </Button>
           </div>
         </div>

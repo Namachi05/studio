@@ -1,5 +1,5 @@
 import { ContactForm } from "@/components/contact-form"
-import { Mail, Phone } from 'lucide-react'
+import { Mail } from 'lucide-react'
 
 export default function ContactPage() {
   return (
@@ -31,22 +31,6 @@ export default function ContactPage() {
                 </p>
                 <a href="mailto:hello@creativecanopy.dev" className="mt-2 text-base font-medium text-primary hover:underline">
                   hello@creativecanopy.dev
-                </a>
-              </div>
-            </div>
-            <div className="flex items-start">
-              <div className="flex-shrink-0">
-                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-primary text-primary-foreground">
-                  <Phone className="h-6 w-6" />
-                </div>
-              </div>
-              <div className="ml-4">
-                <h3 className="text-lg font-medium text-foreground">Phone</h3>
-                <p className="mt-1 text-muted-foreground">
-                  Give me a call for a quick chat.
-                </p>
-                <a href="tel:+1234567890" className="mt-2 text-base font-medium text-primary hover:underline">
-                  +1 (234) 567-890
                 </a>
               </div>
             </div>
